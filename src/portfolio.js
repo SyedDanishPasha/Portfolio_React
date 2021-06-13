@@ -15,20 +15,19 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs / HTML / CSS and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1h7VDe-pAj8QH7M7PJAh8jTVXGzB9p7Qd/view?usp=sharing",
+    "https://drive.google.com/file/d/1YCeeQW9uA5qo2PJwx2GK1i3r6NaLrUa8/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "",
-  linkedin: "",
-  gmail: "",
-  facebook: "",
-  stackoverflow: "",
-  instagram: '',
-  twitter: '',
+  github: "https://github.com/SyedDanishPasha",
+  linkedin: "https://www.linkedin.com/in/syed-danish-pasha-287b8b188/",
+  gmail: "syeddanishp@gmail.com",
+  facebook: "https://www.facebook.com/syed.danish.pasha.26",
+  instagram: 'https://www.instagram.com/all_call_me_danny/',
+  twitter: 'https://twitter.com/SyedDanishPash3',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -60,10 +59,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -74,10 +69,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -98,16 +89,20 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Presidency University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Technology in Computer Science",
-      duration: "Augest 2017 to June 2021",
+      logo: require("./assets/images/PULogo.png"),
+      subHeader: "Bachelor of Technology in Computer Science and Engineering",
+      duration: "August 2017 to June 2021",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        "",
+      descBullets: [
+        "Runner in Intra University Science Exhibition",
+        "Class Representative for 3 years",
+        "Disipline Committe Head"
+      ]
     }
   ]
 };
@@ -128,6 +123,42 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "ReactJs",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "NodeJs",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "JavaScript",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "HTML",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "CSS",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "BootStrap",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Django",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Python",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Java",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -141,10 +172,10 @@ const workExperiences = {
     {
       role: "Software Developer Engineer",
       company: "Fresher",
-      companylogo: require("./assets/images/cpLogo.png"),
+      companylogo: require("./assets/images/Self.jpg"),
       date: "",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Building career in Full Stack Developement",
       descBullets: [
         "Development of Web and Mobile Application",
         "Custom Building Applications",
@@ -155,7 +186,7 @@ const workExperiences = {
     {
       role: "Intership",
       company: "Traid Square Infosec Pvt Ltd",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
+      companylogo: require("./assets/images/triad-logo.png"),
       date: "June 2019 – Augest 2020",
       desc:
         "IT Recuriter.",
@@ -181,34 +212,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big ",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Big Projects",
+  subtitle: "Building Clone Appication to up-skill my technical skills in Full Stack Development",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/amazonlogo.svg"),
+      projectName: "Amazon Clone",
+      projectDesc: "Clone an web app using Reactjs, React-Native, Redux, JavaScript, Styled-Components, HTML, and CSS. For Backend using Firebase",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
+          url: "https://clone2-0.web.app"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/airbnbLogo.png"),
+      projectName: "Airbnb",
+      projectDesc: "Clone an web app using Reactjs, React-Native, JavaScript, Redux, HTML, and CSS. For Backend using Firebase",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://hardcore-cori-5478fd.netlify.app/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -221,56 +252,59 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "JavaScript and React for Beginners: 12 Projects",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "",
+      image: require("./assets/images/RJSLogo.jpg"),
       footerLink: [
         {
           name: "Certification",
           url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
+            "https://www.udemy.com/certificate/UC-193c93a9-d85e-4f42-a54e-500cdec993cc/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Professional Web Development Skills",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "",
+      image: require("./assets/images/WDLogo.jpg"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Certification",
           url:
-            ""
+            "https://www.udemy.com/certificate/UC-c37cebaa-45c9-4b7f-903b-6ba509118d57/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: " Build Your Portfolio Website with HTML and CSS",
+      subtitle:
+        "",
+      image: require("./assets/images/htmlcssLogo.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: ""
+          name: "Certification",
+          url:
+            "https://www.coursera.org/account/accomplishments/certificate/NBBGCA9NA7EA"
         }
       ]
-    }
+    },
+    {
+      title: "Essential Google Cloud Infrastructure: Foundation",
+      subtitle:
+        "",
+      image: require("./assets/images/GCLogo.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://www.coursera.org/account/accomplishments/certificate/6J6Y7R9JYEYW"
+        }
+      ]
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -283,16 +317,10 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://mdaffankhan.wordpress.com/",
+      title: "High Efficiency Hybrid Dual Axis Solar Sun Tracking System for PV Power Plants",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Established in June of 2021, Power Palace is a blog focusing on Renewable Energies. We work on Solar PV Plants, Wind Energy systems and all the Renewable Energies. We also help in new technologies related to Renewable energy systems. If you like our content, don’t forget to subscribe at the bottom of the page."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -334,15 +362,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+91 8867628729",
+  email_address: "syeddanishp@gmai.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
